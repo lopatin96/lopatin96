@@ -1,16 +1,19 @@
-### Hi there 👋
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0e76a8?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/lop-atin/)
 
-<!--
-**lopatin96/lopatin96** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```javascript
+import SoftwareDeveloper from 'lopatin96';
+import { Languages, Frameworks } from 'lopatin96/skills';
 
-Here are some ideas to get you started:
+class Bio extends SoftwareDeveloper {
+  name     = 'Vladyslav Lopatin';
+  title    = 'Senior Software Developer';
+  location = 'Poland, Warsaw';
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class Skills extends SoftwareDeveloper {
+  languages  = ['PHP', 'Python', 'Swift', ...Languages];
+  databases  = ['MySQL', 'MongoDB', 'PostgreSQL'];
+  frameworks = ['Laravel', 'Vue', 'React', ...Frameworks];
+}
+
+```
